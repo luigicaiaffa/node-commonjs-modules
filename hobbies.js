@@ -1,6 +1,5 @@
 const getPersonHobbies = (...hobbies) => {
-  const personHobbies = { hobbies };
-  return personHobbies;
+  return { hobbies };
 };
 
 module.exports = { getPersonHobbies };
