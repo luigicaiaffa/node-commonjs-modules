@@ -3,12 +3,4 @@ const getPersonHobbies = (...hobbies) => {
   return personHobbies;
 };
 
-console.log(
-  getPersonHobbies(
-    "HobbyUno",
-    "HobbyDue",
-    "HobbyTre",
-    "HobbyQuattro",
-    "HobbyCinque"
-  )
-);
+module.exports = { getPersonHobbies };
