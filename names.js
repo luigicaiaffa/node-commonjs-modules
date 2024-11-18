@@ -3,4 +3,4 @@ const getFullName = (firstName, lastName) => {
   return fullName;
 };
 
-console.log(getFullName("Luigi", "Caiaffa"));
+module.exports = { getFullName };
