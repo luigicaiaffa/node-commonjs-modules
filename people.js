@@ -1,6 +1,7 @@
 const path = require("path");
+
 const namesPath = path.join(__dirname, "names.js");
-console.log(namesPath);
+const hobbiesPath = path.join(__dirname, "hobbies.js");
 
 const { getFullName } = require(namesPath);
 
